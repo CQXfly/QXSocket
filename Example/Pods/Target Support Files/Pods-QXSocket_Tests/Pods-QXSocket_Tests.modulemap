@@ -1,0 +1,6 @@
+framework module Pods_QXSocket_Tests {
+  umbrella header "Pods-QXSocket_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

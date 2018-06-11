@@ -1,0 +1,22 @@
+{
+  "name": "QXSocket",
+  "version": "0.1.0",
+  "summary": "A short description of QXSocket.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/905799827@qq.com/QXSocket",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "905799827@qq.com": "qingxu.chong@yintech.cn"
+  },
+  "source": {
+    "git": "https://github.com/905799827@qq.com/QXSocket.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QXSocket/Classes/**/*"
+}
