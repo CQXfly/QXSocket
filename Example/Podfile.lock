@@ -1,10 +1,12 @@
 PODS:
+  - BlueSocket (1.0.7)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - QXSocket (0.1.0)
+  - QXSocket (0.1.0):
+    - BlueSocket (~> 1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -12,6 +14,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - BlueSocket
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
@@ -19,9 +22,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  BlueSocket: c93bef1d8a9a7e65301964605c63220c7c3871a1
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  QXSocket: 289781e9f5d06d72eda269235eab52f65080a9e7
+  QXSocket: 2f53963bed4ff2da0bdc3915b10621aad573dfa2
 
-PODFILE CHECKSUM: 0e74aa9c18ad553242f0f768081928107399c871
+PODFILE CHECKSUM: 2207c143e492818159eee3f4c0664bf7447e7995
 
 COCOAPODS: 1.5.3

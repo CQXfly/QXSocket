@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of QXSocket.",
   "description": "TODO: Add long description of the pod here.",
+  "static_framework": true,
   "homepage": "https://github.com/905799827@qq.com/QXSocket",
   "license": {
     "type": "MIT",
@@ -18,5 +19,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "QXSocket/Classes/**/*"
+  "source_files": "QXSocket/Classes/**/*",
+  "dependencies": {
+    "BlueSocket": [
+      "~> 1.0"
+    ]
+  }
 }

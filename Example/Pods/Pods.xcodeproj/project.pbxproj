@@ -7,46 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
+		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 9592F687589BF07384ED662629FE04D8 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2033139D113238CC12E7F2797CC12E22 /* UIApplication+StrictKeyWindow.m */; };
+		0B6BA71AAFD5EF7A109963C50E3210AA /* QXSocketStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29910D6995814341462D4A03CF4465C /* QXSocketStatus.swift */; };
 		18EA4E0D8B74F2B2BBF8F39B49F49BF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */; };
-		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
+		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE74162D6F342BC8F68E113B8D1DCE43 /* SwiftSupport.swift */; };
 		21F51B821F0407E93D27D71311CBB0C2 /* Pods-QXSocket_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C44749C68C7A114104C116AE0E385C /* Pods-QXSocket_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
+		24B6656F5497464E60AADCA28936F71B /* SocketUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8ACCFC594FB9559C9257FDF1699881 /* SocketUtils.swift */; };
+		26310021B3862A8B08438572300DF91C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+		297A2391DEC8021EE8889D9130F7CE68 /* QXSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFAB6EABB698403094F048C0DCB0FF9 /* QXSocketManager.swift */; };
+		2E1A2D967C45F640F5DE6BC8AEDB69DB /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EA5B12154F1C12D7AD539B7B97903F /* Socket.swift */; };
+		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB06278000EC00ADC23F5602BC7E978 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 432E76842FBBE5656E91C82D6DB7C1AF /* UIImage+Diff.m */; };
 		3D9676ACED36245A934FEBE5BD322659 /* Pods-QXSocket_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A069EECF14CB318EAB5DFB8C68CAE4 /* Pods-QXSocket_Tests-dummy.m */; };
-		41E3B05696AFD03D15DA1888E4866BE8 /* QXSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CD86FD0D3C7E0EC1F17017D321E929 /* QXSocket-dummy.m */; };
-		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FA3A9102318F6F68DBBA0C9B6B6265 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		44CE92206890F9E28CFB1B75121A76DF /* QXSocketManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1952008561841082256974CF6A2177C9 /* QXSocketManagerProtocol.swift */; };
 		47DEE95708BDBD11436162D166CD192E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */; };
-		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
-		50FEE92ED8B7E019364E440AF4471864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		54552C50E88F3491C7A771CDCC7B88E7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399A62D334EB82126E5D421A9707C049 /* ReplaceMe.swift */; };
+		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 083A5447A8478403BB155353D77A0544 /* FBSnapshotTestCase-dummy.m */; };
 		58457E932362373498FAFA6B7498C82C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		5B86B3B3124397B4233DCA2FAA29D8D3 /* QXSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3D5BAA0C7F778ECCB78E1360C031A6 /* QXSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BC12F69E33ABA27B9E0B78128CE336D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */; };
-		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		6B4F1D3A86A4CAA96EB69B401F65CB30 /* Pods-QXSocket_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D52FEDE606C45C6368C1776578CB4 /* Pods-QXSocket_Example-dummy.m */; };
-		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		856C311911414D32D24EDC523953C998 /* Pods-QXSocket_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DFCEBF6F5B5B742814CE89079C2AB66 /* Pods-QXSocket_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		BE83D3053A687D1740AD25ECC1BCAB24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5EE2228BBAB5622594FE123098054E99 /* SocketProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C7E5C978B337304949FD788CEAD76A /* SocketProtocols.swift */; };
+		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1D639F1FF82B1B16AA9EBDC1D7634 /* UIImage+Compare.m */; };
+		6C516619BBC19CE8F30F31A2A50A1244 /* Pods-QXSocket_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DFCEBF6F5B5B742814CE89079C2AB66 /* Pods-QXSocket_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70119679E2ECF3FA522075C2050D96F3 /* BlueSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 373FF833DE73BE3CBD6372DAFE5825DF /* BlueSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 564B05BAE30649D6B7E1A7F46034F8A6 /* UIImage+Snapshot.m */; };
+		816BA5B8B6767F81C3934B661E1071AC /* BlueSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23633D753CD492013F41D20B188430AC /* BlueSocket-dummy.m */; };
+		86207C589AFE1C92B096E48DCC10E3DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+		86EB2E22C0F3AC607EF15E2DE19758B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+		8B4919C6B1804CBC7F21B3C3B6A83658 /* QXSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D2B00B6AC3902256C11726979B3EB6 /* QXSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C2232BB79E40A5227B442E9B9A7E73 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2797C926CE938926C1763BC8EF9446 /* FBSnapshotTestController.m */; };
+		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7040DCDF8BEA55656C0F2E3EFDB88221 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 657C5EB2C67B1EACFABE96045F57145C /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373475E084A6B38AD5827CAFD656111 /* FBSnapshotTestCase.m */; };
+		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5F7296FE2E13D6EC32F29C5B09F255 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0751104FBF785B1BCA408E75944646B /* QXSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A051678A2E02272E7D12D4266AFEA /* QXSocket-dummy.m */; };
+		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 16901909C3D34753F0FF0B806DB525CD /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DAD9A0E0F40D3984B78A22F8D3CDAB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
+		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CCCB8C7280152F49D4EE5117C1525F /* FBSnapshotTestCasePlatform.m */; };
+		FFDCA02146CF68338DC4ACB3959E2ECE /* Pods-QXSocket_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D52FEDE606C45C6368C1776578CB4 /* Pods-QXSocket_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0AEB8C7B376DB78F74C9D13FB666DF65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE9ECB17C12301EC95F3782165039F93;
+			remoteInfo = QXSocket;
+		};
 		3A1D1AB89A562BF2A98FF76CBCB0BBB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9C2004E6DDC2784762088450E832CC9F;
+			remoteGlobalIDString = ACE9499034E84DA1D72FB9506E2CF235;
 			remoteInfo = "Pods-QXSocket_Example";
+		};
+		622487BCA02CEB1962CEE0B780E0DFBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1053405F1F7488B4AD94BD05AC90814D;
+			remoteInfo = BlueSocket;
 		};
 		9823F9D92459CE59810F35B8D2783688 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -55,75 +77,86 @@
 			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		F62139630195AABB264ED64D4150821E /* PBXContainerItemProxy */ = {
+		D6016E0BC0C9784D4E10DCE8F380B9F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1E5F77A038C5A5CDDE26AB5F4848FEBA;
-			remoteInfo = QXSocket;
+			remoteGlobalIDString = 1053405F1F7488B4AD94BD05AC90814D;
+			remoteInfo = BlueSocket;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		07D96C9567BA16BF8E3EB36AF4A6C945 /* Pods-QXSocket_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXSocket_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		0F51ED8472DDEA7FCDD230613A4E77C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		083A5447A8478403BB155353D77A0544 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		12C44749C68C7A114104C116AE0E385C /* Pods-QXSocket_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QXSocket_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		16901909C3D34753F0FF0B806DB525CD /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		176C1C13D2C8C14267C3E7EC31C081DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18BCBCC8CAD3D05554756310E80235F9 /* Pods-QXSocket_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXSocket_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1BB55B0227B719DC7DFA5C9A2638C179 /* QXSocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QXSocket.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		18C2232BB79E40A5227B442E9B9A7E73 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		1952008561841082256974CF6A2177C9 /* QXSocketManagerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QXSocketManagerProtocol.swift; path = QXSocket/Classes/QXSocketManagerProtocol.swift; sourceTree = "<group>"; };
+		2033139D113238CC12E7F2797CC12E22 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		2037725B2A94A6F82CF1BF94D7E80211 /* Pods_QXSocket_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXSocket_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		222EC2B72798AA95A34BE0776F1AC515 /* Pods-QXSocket_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXSocket_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2297554A74DB615ECEEBB5DA1106203C /* Pods-QXSocket_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXSocket_Example-resources.sh"; sourceTree = "<group>"; };
+		23633D753CD492013F41D20B188430AC /* BlueSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlueSocket-dummy.m"; sourceTree = "<group>"; };
 		2D3D52FEDE606C45C6368C1776578CB4 /* Pods-QXSocket_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QXSocket_Example-dummy.m"; sourceTree = "<group>"; };
-		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		399A62D334EB82126E5D421A9707C049 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = QXSocket/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		4417A3AF42203707ACA2672C24D356B5 /* QXSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QXSocket.framework; path = QXSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		2FB06278000EC00ADC23F5602BC7E978 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		30004664EFA37638BEB104DE2056C514 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373FF833DE73BE3CBD6372DAFE5825DF /* BlueSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueSocket-umbrella.h"; sourceTree = "<group>"; };
+		3E8A051678A2E02272E7D12D4266AFEA /* QXSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QXSocket-dummy.m"; sourceTree = "<group>"; };
+		432E76842FBBE5656E91C82D6DB7C1AF /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		48DF62E5E5101B70A2A91899B246AFAB /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4960DFEDC145797589DD8C9FC8A25BF6 /* Pods-QXSocket_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QXSocket_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		57A77E51D41DB742EE2713A538D616C5 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5F7296FE2E13D6EC32F29C5B09F255 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		4B88CFAB8C1E996282708B0AB821C141 /* BlueSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueSocket-prefix.pch"; sourceTree = "<group>"; };
+		4BA1D639F1FF82B1B16AA9EBDC1D7634 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		4EE2F619A0927E3A95E73D35D6A06652 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		54D2B00B6AC3902256C11726979B3EB6 /* QXSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXSocket-umbrella.h"; sourceTree = "<group>"; };
+		55FA3A9102318F6F68DBBA0C9B6B6265 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		564B05BAE30649D6B7E1A7F46034F8A6 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		56EA5B12154F1C12D7AD539B7B97903F /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket/Socket.swift; sourceTree = "<group>"; };
+		657C5EB2C67B1EACFABE96045F57145C /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		680EA5CAB9B0F5CA50B55577160ABF75 /* QXSocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = QXSocket.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		68D626557CAB7C9ED165414ED3F6E86B /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		6A6037259DD3330FEE3661C433B89A7C /* Pods-QXSocket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXSocket_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6DFCEBF6F5B5B742814CE89079C2AB66 /* Pods-QXSocket_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QXSocket_Example-umbrella.h"; sourceTree = "<group>"; };
+		7040DCDF8BEA55656C0F2E3EFDB88221 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		70A193C9078DFB5685C056F5E3DAEA23 /* QXSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXSocket-prefix.pch"; sourceTree = "<group>"; };
+		7363072997446BB20704D075E69A42D1 /* QXSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QXSocket.modulemap; sourceTree = "<group>"; };
+		7373475E084A6B38AD5827CAFD656111 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		76D4228E2A0091857831FF98069DBA21 /* Pods-QXSocket_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXSocket_Tests-resources.sh"; sourceTree = "<group>"; };
 		771191246F63CF4D5586A447566E126F /* Pods-QXSocket_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXSocket_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		7E33AB8EBF05B63E6E8F73950CAC89D6 /* Pods_QXSocket_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QXSocket_Tests.framework; path = "Pods-QXSocket_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		8F37AF19ACE1F1B4BB33F03D6C71F5E5 /* QXSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QXSocket.xcconfig; sourceTree = "<group>"; };
-		9208A86D13D9C131F9149EFF7AAEF35B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7BD5112EF1B8C52014C99187456466BB /* QXSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QXSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8ACCFC594FB9559C9257FDF1699881 /* SocketUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketUtils.swift; path = Sources/Socket/SocketUtils.swift; sourceTree = "<group>"; };
+		8B021377EC93198870A594AB1C2ABA7F /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9592F687589BF07384ED662629FE04D8 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		97C7E5C978B337304949FD788CEAD76A /* SocketProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketProtocols.swift; path = Sources/Socket/SocketProtocols.swift; sourceTree = "<group>"; };
+		9B2797C926CE938926C1763BC8EF9446 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		9B64D57084067F8FA129B5AA1BFE79F8 /* Pods-QXSocket_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXSocket_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		9EFAB6EABB698403094F048C0DCB0FF9 /* QXSocketManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QXSocketManager.swift; path = QXSocket/Classes/QXSocketManager.swift; sourceTree = "<group>"; };
+		A29910D6995814341462D4A03CF4465C /* QXSocketStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QXSocketStatus.swift; path = QXSocket/Classes/QXSocketStatus.swift; sourceTree = "<group>"; };
+		A3CCCB8C7280152F49D4EE5117C1525F /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		A60E2BE2DB795DD8F23EC711B3FE9ED3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD3B898BBAFFFBAE54BFE0ACE121ACC4 /* Pods-QXSocket_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXSocket_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B1CD86FD0D3C7E0EC1F17017D321E929 /* QXSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QXSocket-dummy.m"; sourceTree = "<group>"; };
-		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		BA8F53F5585576338E86163325EB8F47 /* QXSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QXSocket.modulemap; sourceTree = "<group>"; };
 		BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE74162D6F342BC8F68E113B8D1DCE43 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C4AEFF3717E886A58903A8A71960C84D /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		C9A069EECF14CB318EAB5DFB8C68CAE4 /* Pods-QXSocket_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QXSocket_Tests-dummy.m"; sourceTree = "<group>"; };
+		CA1E17685ECAA76FC8406B61A7527B06 /* Pods_QXSocket_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXSocket_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3B84778F229D12CC34DFD989959F5D /* Pods-QXSocket_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXSocket_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CC3D5BAA0C7F778ECCB78E1360C031A6 /* QXSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXSocket-umbrella.h"; sourceTree = "<group>"; };
 		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		D8B9F86214E6CEC20CDE1F16A75D4AB9 /* BlueSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlueSocket.xcconfig; sourceTree = "<group>"; };
 		DC626254955FD72535CD9783943A78C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE0981B0747FEA9C004E30C7D7179D08 /* Pods-QXSocket_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QXSocket_Example.modulemap"; sourceTree = "<group>"; };
-		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		E3A11B4C2E9189EE8257DEC12A49E1AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EA3D9352D52CD3E6764B83ABCF011BF2 /* Pods_QXSocket_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QXSocket_Example.framework; path = "Pods-QXSocket_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		EDA6E694D9F2E48B7CEDAB16B241B08D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EF9F2FC7E87C70E5C877E408E8B323C3 /* Pods-QXSocket_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QXSocket_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		F94914B05BBA13A4164E26360983F143 /* QXSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXSocket-prefix.pch"; sourceTree = "<group>"; };
+		F117EFF62BE03AF940249C40F0D40BFD /* Socket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Socket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F264954A4FE3B08C550D64A125FBBBDC /* BlueSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlueSocket.modulemap; sourceTree = "<group>"; };
+		FC4438483381E62F9030B946DF6FE2DE /* QXSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QXSocket.xcconfig; sourceTree = "<group>"; };
 		FFCE3EB21BBF38FCF60E2E7557B9DB21 /* Pods-QXSocket_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QXSocket_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,19 +172,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38AFD3A97393748475D82A10C27C10DA /* Frameworks */ = {
+		5745FABE08CAE49B3ED243B87C1268A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50FEE92ED8B7E019364E440AF4471864 /* Foundation.framework in Frameworks */,
+				86207C589AFE1C92B096E48DCC10E3DD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C68216E8689970B24A0AFE31888D26D /* Frameworks */ = {
+		5BC9B5D25E58D12BF13B4EE384DEEE0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE83D3053A687D1740AD25ECC1BCAB24 /* Foundation.framework in Frameworks */,
+				26310021B3862A8B08438572300DF91C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,9 +196,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DDDCC7C126FE0EBF30487AA4C6AACBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86EB2E22C0F3AC607EF15E2DE19758B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0254B4DAB747C499BE8D224576D2A3FA /* QXSocket */ = {
+			isa = PBXGroup;
+			children = (
+				9EFAB6EABB698403094F048C0DCB0FF9 /* QXSocketManager.swift */,
+				1952008561841082256974CF6A2177C9 /* QXSocketManagerProtocol.swift */,
+				A29910D6995814341462D4A03CF4465C /* QXSocketStatus.swift */,
+				C08E2FDF514A73513AEC9812F78E9F99 /* Pod */,
+				891614737352313DEE4D4FFF5CD7EB37 /* Support Files */,
+			);
+			name = QXSocket;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,40 +228,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		180E14C154AD2523D264DB4240040B4D /* QXSocket */ = {
+		1A028A571B17D62596D93FDB0239450F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				399A62D334EB82126E5D421A9707C049 /* ReplaceMe.swift */,
-				AE4FB94A35924C91AB6572A2C957A1D4 /* Pod */,
-				4E6FF8288DA13AEB58B16F8B22360F37 /* Support Files */,
+				E94B133AE843141DD398824B6E77EA7E /* BlueSocket */,
+				54A9E62F347010AD9F68020EC72E7E48 /* FBSnapshotTestCase */,
 			);
-			name = QXSocket;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				F35791481CAFDD8E7715AE1B44687328 /* Core */,
-				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
-				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
-			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */,
-				7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */,
-				4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */,
-				EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */,
-				A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */,
-				67E276593855381568F725E69496F29C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		3EB1A8839A654B1F16EF9E6F67243337 /* iOS */ = {
@@ -239,67 +266,106 @@
 			path = "Target Support Files/Pods-QXSocket_Tests";
 			sourceTree = "<group>";
 		};
-		4E6FF8288DA13AEB58B16F8B22360F37 /* Support Files */ = {
+		54A9E62F347010AD9F68020EC72E7E48 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				0F51ED8472DDEA7FCDD230613A4E77C0 /* Info.plist */,
-				BA8F53F5585576338E86163325EB8F47 /* QXSocket.modulemap */,
-				8F37AF19ACE1F1B4BB33F03D6C71F5E5 /* QXSocket.xcconfig */,
-				B1CD86FD0D3C7E0EC1F17017D321E929 /* QXSocket-dummy.m */,
-				F94914B05BBA13A4164E26360983F143 /* QXSocket-prefix.pch */,
-				CC3D5BAA0C7F778ECCB78E1360C031A6 /* QXSocket-umbrella.h */,
+				690C4ECA65F733696ECE83286DD505B0 /* Core */,
+				9E56291B34408D6AA14D918C716E2439 /* Support Files */,
+				EE5EAE3F1212807373CAECA8636BD894 /* SwiftSupport */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QXSocket";
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		690C4ECA65F733696ECE83286DD505B0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				18C2232BB79E40A5227B442E9B9A7E73 /* FBSnapshotTestCase.h */,
+				7373475E084A6B38AD5827CAFD656111 /* FBSnapshotTestCase.m */,
+				4B5F7296FE2E13D6EC32F29C5B09F255 /* FBSnapshotTestCasePlatform.h */,
+				A3CCCB8C7280152F49D4EE5117C1525F /* FBSnapshotTestCasePlatform.m */,
+				2FB06278000EC00ADC23F5602BC7E978 /* FBSnapshotTestController.h */,
+				9B2797C926CE938926C1763BC8EF9446 /* FBSnapshotTestController.m */,
+				657C5EB2C67B1EACFABE96045F57145C /* UIApplication+StrictKeyWindow.h */,
+				2033139D113238CC12E7F2797CC12E22 /* UIApplication+StrictKeyWindow.m */,
+				16901909C3D34753F0FF0B806DB525CD /* UIImage+Compare.h */,
+				4BA1D639F1FF82B1B16AA9EBDC1D7634 /* UIImage+Compare.m */,
+				9592F687589BF07384ED662629FE04D8 /* UIImage+Diff.h */,
+				432E76842FBBE5656E91C82D6DB7C1AF /* UIImage+Diff.m */,
+				55FA3A9102318F6F68DBBA0C9B6B6265 /* UIImage+Snapshot.h */,
+				564B05BAE30649D6B7E1A7F46034F8A6 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A66519705B230A66CBB563BB4EA05AFD /* Development Pods */,
+				A8F615D753C9A96DE4C2C1BA288EFE13 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				9A0F2832764AB0F8AD14843A8E211169 /* Products */,
+				1A028A571B17D62596D93FDB0239450F /* Pods */,
+				FBF90852FC415F75D44595233B17F97D /* Products */,
 				D7C9453FE7133BE7CEE68BA38680ECA5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
+		891614737352313DEE4D4FFF5CD7EB37 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
+				7363072997446BB20704D075E69A42D1 /* QXSocket.modulemap */,
+				FC4438483381E62F9030B946DF6FE2DE /* QXSocket.xcconfig */,
+				3E8A051678A2E02272E7D12D4266AFEA /* QXSocket-dummy.m */,
+				70A193C9078DFB5685C056F5E3DAEA23 /* QXSocket-prefix.pch */,
+				54D2B00B6AC3902256C11726979B3EB6 /* QXSocket-umbrella.h */,
 			);
-			name = SwiftSupport;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QXSocket";
 			sourceTree = "<group>";
 		};
-		9A0F2832764AB0F8AD14843A8E211169 /* Products */ = {
+		9E56291B34408D6AA14D918C716E2439 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				57A77E51D41DB742EE2713A538D616C5 /* FBSnapshotTestCase.framework */,
-				EA3D9352D52CD3E6764B83ABCF011BF2 /* Pods_QXSocket_Example.framework */,
-				7E33AB8EBF05B63E6E8F73950CAC89D6 /* Pods_QXSocket_Tests.framework */,
-				4417A3AF42203707ACA2672C24D356B5 /* QXSocket.framework */,
+				68D626557CAB7C9ED165414ED3F6E86B /* FBSnapshotTestCase.modulemap */,
+				C4AEFF3717E886A58903A8A71960C84D /* FBSnapshotTestCase.xcconfig */,
+				083A5447A8478403BB155353D77A0544 /* FBSnapshotTestCase-dummy.m */,
+				8B021377EC93198870A594AB1C2ABA7F /* FBSnapshotTestCase-prefix.pch */,
+				7040DCDF8BEA55656C0F2E3EFDB88221 /* FBSnapshotTestCase-umbrella.h */,
+				A60E2BE2DB795DD8F23EC711B3FE9ED3 /* Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		A66519705B230A66CBB563BB4EA05AFD /* Development Pods */ = {
+		A8F615D753C9A96DE4C2C1BA288EFE13 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				180E14C154AD2523D264DB4240040B4D /* QXSocket */,
+				0254B4DAB747C499BE8D224576D2A3FA /* QXSocket */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		AE4FB94A35924C91AB6572A2C957A1D4 /* Pod */ = {
+		C08E2FDF514A73513AEC9812F78E9F99 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9208A86D13D9C131F9149EFF7AAEF35B /* LICENSE */,
-				1BB55B0227B719DC7DFA5C9A2638C179 /* QXSocket.podspec */,
-				E3A11B4C2E9189EE8257DEC12A49E1AD /* README.md */,
+				4EE2F619A0927E3A95E73D35D6A06652 /* LICENSE */,
+				680EA5CAB9B0F5CA50B55577160ABF75 /* QXSocket.podspec */,
+				EDA6E694D9F2E48B7CEDAB16B241B08D /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		D3F283570F7965B0C28A6C6178882C90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F264954A4FE3B08C550D64A125FBBBDC /* BlueSocket.modulemap */,
+				D8B9F86214E6CEC20CDE1F16A75D4AB9 /* BlueSocket.xcconfig */,
+				23633D753CD492013F41D20B188430AC /* BlueSocket-dummy.m */,
+				4B88CFAB8C1E996282708B0AB821C141 /* BlueSocket-prefix.pch */,
+				373FF833DE73BE3CBD6372DAFE5825DF /* BlueSocket-umbrella.h */,
+				30004664EFA37638BEB104DE2056C514 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BlueSocket";
 			sourceTree = "<group>";
 		};
 		D7C9453FE7133BE7CEE68BA38680ECA5 /* Targets Support Files */ = {
@@ -311,25 +377,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
+		E94B133AE843141DD398824B6E77EA7E /* BlueSocket */ = {
 			isa = PBXGroup;
 			children = (
-				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
-				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
-				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
-				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
-				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
-				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
-				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
-				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
-				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
-				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
-				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
-				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
-				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
-				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
+				56EA5B12154F1C12D7AD539B7B97903F /* Socket.swift */,
+				97C7E5C978B337304949FD788CEAD76A /* SocketProtocols.swift */,
+				7E8ACCFC594FB9559C9257FDF1699881 /* SocketUtils.swift */,
+				D3F283570F7965B0C28A6C6178882C90 /* Support Files */,
 			);
-			name = Core;
+			path = BlueSocket;
+			sourceTree = "<group>";
+		};
+		EE5EAE3F1212807373CAECA8636BD894 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				BE74162D6F342BC8F68E113B8D1DCE43 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
 		FADFDF48CEF3CBC0F1E9BAFF3A2086EA /* Pods-QXSocket_Example */ = {
@@ -350,22 +414,42 @@
 			path = "Target Support Files/Pods-QXSocket_Example";
 			sourceTree = "<group>";
 		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+		FBF90852FC415F75D44595233B17F97D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
+				48DF62E5E5101B70A2A91899B246AFAB /* FBSnapshotTestCase.framework */,
+				2037725B2A94A6F82CF1BF94D7E80211 /* Pods_QXSocket_Example.framework */,
+				CA1E17685ECAA76FC8406B61A7527B06 /* Pods_QXSocket_Tests.framework */,
+				7BD5112EF1B8C52014C99187456466BB /* QXSocket.framework */,
+				F117EFF62BE03AF940249C40F0D40BFD /* Socket.framework */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		48119ADD397D1BFEBBEA470DFB5D507F /* Headers */ = {
+		0B244F54A26F168988DD385085D0B4F0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				856C311911414D32D24EDC523953C998 /* Pods-QXSocket_Example-umbrella.h in Headers */,
+				8B4919C6B1804CBC7F21B3C3B6A83658 /* QXSocket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4D3139A8AE3B027E150B0CA36DE95B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70119679E2ECF3FA522075C2050D96F3 /* BlueSocket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9021C487C59212F40FD6C5FF4469B9B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C516619BBC19CE8F30F31A2A50A1244 /* Pods-QXSocket_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,14 +468,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB5BCD47E4AD1632EA4C088A94D35EC8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B86B3B3124397B4233DCA2FAA29D8D3 /* QXSocket-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F07D1D0E5EB9B8D2450ECCE7B8D944DD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -403,21 +479,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1E5F77A038C5A5CDDE26AB5F4848FEBA /* QXSocket */ = {
+		1053405F1F7488B4AD94BD05AC90814D /* BlueSocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE662DCA8FB02ACEA7237B044A5DCEC0 /* Build configuration list for PBXNativeTarget "QXSocket" */;
+			buildConfigurationList = 144F6878767568E5277D30049E90B28D /* Build configuration list for PBXNativeTarget "BlueSocket" */;
 			buildPhases = (
-				3C23B73FAF618002A4600DAA68970270 /* Sources */,
-				38AFD3A97393748475D82A10C27C10DA /* Frameworks */,
-				AB5BCD47E4AD1632EA4C088A94D35EC8 /* Headers */,
+				E6AD96B4663FB4D22595F718A09A0B1E /* Sources */,
+				5BC9B5D25E58D12BF13B4EE384DEEE0E /* Frameworks */,
+				6D4D3139A8AE3B027E150B0CA36DE95B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = QXSocket;
-			productName = QXSocket;
-			productReference = 4417A3AF42203707ACA2672C24D356B5 /* QXSocket.framework */;
+			name = BlueSocket;
+			productName = BlueSocket;
+			productReference = F117EFF62BE03AF940249C40F0D40BFD /* Socket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
@@ -434,25 +510,26 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 57A77E51D41DB742EE2713A538D616C5 /* FBSnapshotTestCase.framework */;
+			productReference = 48DF62E5E5101B70A2A91899B246AFAB /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9C2004E6DDC2784762088450E832CC9F /* Pods-QXSocket_Example */ = {
+		ACE9499034E84DA1D72FB9506E2CF235 /* Pods-QXSocket_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E63CB65CC2F285A5C16354F508AFD51C /* Build configuration list for PBXNativeTarget "Pods-QXSocket_Example" */;
+			buildConfigurationList = 5D37A613FD0E4DF19142B222CB9B82A5 /* Build configuration list for PBXNativeTarget "Pods-QXSocket_Example" */;
 			buildPhases = (
-				DE433A8090DC839EBFE14AE543C102C2 /* Sources */,
-				5C68216E8689970B24A0AFE31888D26D /* Frameworks */,
-				48119ADD397D1BFEBBEA470DFB5D507F /* Headers */,
+				B0E9E6CCA62CFBE7E17133D98E137720 /* Sources */,
+				5745FABE08CAE49B3ED243B87C1268A4 /* Frameworks */,
+				9021C487C59212F40FD6C5FF4469B9B7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B7E8EFD2511DEC82EDB92124F93E53A2 /* PBXTargetDependency */,
+				584DC4567597C31C01F3C1F501D3BC2A /* PBXTargetDependency */,
+				26AC19711DC1BBB39B0F24C53A83FE42 /* PBXTargetDependency */,
 			);
 			name = "Pods-QXSocket_Example";
 			productName = "Pods-QXSocket_Example";
-			productReference = EA3D9352D52CD3E6764B83ABCF011BF2 /* Pods_QXSocket_Example.framework */;
+			productReference = 2037725B2A94A6F82CF1BF94D7E80211 /* Pods_QXSocket_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CC93A173C28D4EFCABA6C9BB04958248 /* Pods-QXSocket_Tests */ = {
@@ -471,7 +548,25 @@
 			);
 			name = "Pods-QXSocket_Tests";
 			productName = "Pods-QXSocket_Tests";
-			productReference = 7E33AB8EBF05B63E6E8F73950CAC89D6 /* Pods_QXSocket_Tests.framework */;
+			productReference = CA1E17685ECAA76FC8406B61A7527B06 /* Pods_QXSocket_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE9ECB17C12301EC95F3782165039F93 /* QXSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727C6E9DF1769A609557AD1C8449D98B /* Build configuration list for PBXNativeTarget "QXSocket" */;
+			buildPhases = (
+				B5C2390378A95764516A5752D198C552 /* Sources */,
+				DDDCC7C126FE0EBF30487AA4C6AACBAE /* Frameworks */,
+				0B244F54A26F168988DD385085D0B4F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE6D527F3CF31D153C5F894DFC94D1F /* PBXTargetDependency */,
+			);
+			name = QXSocket;
+			productName = QXSocket;
+			productReference = 7BD5112EF1B8C52014C99187456466BB /* QXSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -491,25 +586,36 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9A0F2832764AB0F8AD14843A8E211169 /* Products */;
+			productRefGroup = FBF90852FC415F75D44595233B17F97D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				1053405F1F7488B4AD94BD05AC90814D /* BlueSocket */,
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				9C2004E6DDC2784762088450E832CC9F /* Pods-QXSocket_Example */,
+				ACE9499034E84DA1D72FB9506E2CF235 /* Pods-QXSocket_Example */,
 				CC93A173C28D4EFCABA6C9BB04958248 /* Pods-QXSocket_Tests */,
-				1E5F77A038C5A5CDDE26AB5F4848FEBA /* QXSocket */,
+				EE9ECB17C12301EC95F3782165039F93 /* QXSocket */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3C23B73FAF618002A4600DAA68970270 /* Sources */ = {
+		B0E9E6CCA62CFBE7E17133D98E137720 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41E3B05696AFD03D15DA1888E4866BE8 /* QXSocket-dummy.m in Sources */,
-				54552C50E88F3491C7A771CDCC7B88E7 /* ReplaceMe.swift in Sources */,
+				FFDCA02146CF68338DC4ACB3959E2ECE /* Pods-QXSocket_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C2390378A95764516A5752D198C552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0751104FBF785B1BCA408E75944646B /* QXSocket-dummy.m in Sources */,
+				297A2391DEC8021EE8889D9130F7CE68 /* QXSocketManager.swift in Sources */,
+				44CE92206890F9E28CFB1B75121A76DF /* QXSocketManagerProtocol.swift in Sources */,
+				0B6BA71AAFD5EF7A109963C50E3210AA /* QXSocketStatus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,14 +624,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9676ACED36245A934FEBE5BD322659 /* Pods-QXSocket_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE433A8090DC839EBFE14AE543C102C2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B4F1D3A86A4CAA96EB69B401F65CB30 /* Pods-QXSocket_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,9 +643,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6AD96B4663FB4D22595F718A09A0B1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816BA5B8B6767F81C3934B661E1071AC /* BlueSocket-dummy.m in Sources */,
+				2E1A2D967C45F640F5DE6BC8AEDB69DB /* Socket.swift in Sources */,
+				5EE2228BBAB5622594FE123098054E99 /* SocketProtocols.swift in Sources */,
+				24B6656F5497464E60AADCA28936F71B /* SocketUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		26AC19711DC1BBB39B0F24C53A83FE42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QXSocket;
+			target = EE9ECB17C12301EC95F3782165039F93 /* QXSocket */;
+			targetProxy = 0AEB8C7B376DB78F74C9D13FB666DF65 /* PBXContainerItemProxy */;
+		};
+		584DC4567597C31C01F3C1F501D3BC2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlueSocket;
+			target = 1053405F1F7488B4AD94BD05AC90814D /* BlueSocket */;
+			targetProxy = 622487BCA02CEB1962CEE0B780E0DFBE /* PBXContainerItemProxy */;
+		};
 		6985E7C66962DC2D680DEFB86BD5C63D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
@@ -557,21 +678,21 @@
 		7830B009F5431D90832F53D62EB6B345 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-QXSocket_Example";
-			target = 9C2004E6DDC2784762088450E832CC9F /* Pods-QXSocket_Example */;
+			target = ACE9499034E84DA1D72FB9506E2CF235 /* Pods-QXSocket_Example */;
 			targetProxy = 3A1D1AB89A562BF2A98FF76CBCB0BBB3 /* PBXContainerItemProxy */;
 		};
-		B7E8EFD2511DEC82EDB92124F93E53A2 /* PBXTargetDependency */ = {
+		BCE6D527F3CF31D153C5F894DFC94D1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = QXSocket;
-			target = 1E5F77A038C5A5CDDE26AB5F4848FEBA /* QXSocket */;
-			targetProxy = F62139630195AABB264ED64D4150821E /* PBXContainerItemProxy */;
+			name = BlueSocket;
+			target = 1053405F1F7488B4AD94BD05AC90814D /* BlueSocket */;
+			targetProxy = D6016E0BC0C9784D4E10DCE8F380B9F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		246CED37F175AF5E851C3839F63F9521 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = C4AEFF3717E886A58903A8A71960C84D /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -601,10 +722,11 @@
 			};
 			name = Debug;
 		};
-		46D36E18884DF42DE489620EF7448D04 /* Debug */ = {
+		2D31E8BFB3B9452B2BDB3ACD48DFEBB3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F37AF19ACE1F1B4BB33F03D6C71F5E5 /* QXSocket.xcconfig */;
+			baseConfigurationReference = D8B9F86214E6CEC20CDE1F16A75D4AB9 /* BlueSocket.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -614,46 +736,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QXSocket/QXSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QXSocket/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BlueSocket/BlueSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlueSocket/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QXSocket/QXSocket.modulemap";
-				PRODUCT_MODULE_NAME = QXSocket;
-				PRODUCT_NAME = QXSocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		70535028C6F1AFA8AC3F0D128F0D9F49 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F37AF19ACE1F1B4BB33F03D6C71F5E5 /* QXSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QXSocket/QXSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QXSocket/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QXSocket/QXSocket.modulemap";
-				PRODUCT_MODULE_NAME = QXSocket;
-				PRODUCT_NAME = QXSocket;
+				MODULEMAP_FILE = "Target Support Files/BlueSocket/BlueSocket.modulemap";
+				PRODUCT_MODULE_NAME = Socket;
+				PRODUCT_NAME = Socket;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -666,7 +756,43 @@
 			};
 			name = Release;
 		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		5152C0725A7CCCDA97C2095C9156276C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6037259DD3330FEE3661C433B89A7C /* Pods-QXSocket_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QXSocket_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QXSocket_Example/Pods-QXSocket_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -719,7 +845,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -729,77 +855,7 @@
 			};
 			name = Debug;
 		};
-		92046B4C037C9F69AE79FF9282C5E74C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA3B84778F229D12CC34DFD989959F5D /* Pods-QXSocket_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QXSocket_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QXSocket_Tests/Pods-QXSocket_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9D95F5004E1281374AA3040CF4F4DEE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A6037259DD3330FEE3661C433B89A7C /* Pods-QXSocket_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QXSocket_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QXSocket_Example/Pods-QXSocket_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -849,7 +905,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -857,11 +913,12 @@
 			};
 			name = Release;
 		};
-		C448C31E2FBF415F1EE046AD0CDDDF16 /* Debug */ = {
+		7F5B4480B018A7A26AD4CA1C9E7B6122 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD3B898BBAFFFBAE54BFE0ACE121ACC4 /* Pods-QXSocket_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -873,7 +930,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-QXSocket_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-QXSocket_Example/Pods-QXSocket_Example.modulemap";
@@ -892,9 +949,107 @@
 			};
 			name = Debug;
 		};
+		9BB047C371723B47C81FCAA7F374B5E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4438483381E62F9030B946DF6FE2DE /* QXSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QXSocket/QXSocket-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/QXSocket/QXSocket.modulemap";
+				PRODUCT_MODULE_NAME = QXSocket;
+				PRODUCT_NAME = QXSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8D0EAC0434ED0574B895F71C83C1CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4438483381E62F9030B946DF6FE2DE /* QXSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QXSocket/QXSocket-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/QXSocket/QXSocket.modulemap";
+				PRODUCT_MODULE_NAME = QXSocket;
+				PRODUCT_NAME = QXSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C98F9B6C09A98E1E9343B762420213E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B9F86214E6CEC20CDE1F16A75D4AB9 /* BlueSocket.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlueSocket/BlueSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlueSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlueSocket/BlueSocket.modulemap";
+				PRODUCT_MODULE_NAME = Socket;
+				PRODUCT_NAME = Socket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		EC2B16E08A82FFFAA496F1301724367A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = C4AEFF3717E886A58903A8A71960C84D /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -925,11 +1080,12 @@
 			};
 			name = Release;
 		};
-		F7EAC09D035EAC819FE21E60E0FB99F7 /* Debug */ = {
+		FD50E292A44E00DE8F9E88A4F27D9023 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 222EC2B72798AA95A34BE0776F1AC515 /* Pods-QXSocket_Tests.debug.xcconfig */;
+			baseConfigurationReference = CA3B84778F229D12CC34DFD989959F5D /* Pods-QXSocket_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -941,7 +1097,43 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-QXSocket_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QXSocket_Tests/Pods-QXSocket_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF36B7307E6B6A0E1A4F2068F2EC661E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222EC2B72798AA95A34BE0776F1AC515 /* Pods-QXSocket_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QXSocket_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-QXSocket_Tests/Pods-QXSocket_Tests.modulemap";
@@ -963,11 +1155,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		144F6878767568E5277D30049E90B28D /* Build configuration list for PBXNativeTarget "BlueSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98F9B6C09A98E1E9343B762420213E3 /* Debug */,
+				2D31E8BFB3B9452B2BDB3ACD48DFEBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -975,26 +1176,26 @@
 		394472DC775E6A4088618618797DC4FA /* Build configuration list for PBXNativeTarget "Pods-QXSocket_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7EAC09D035EAC819FE21E60E0FB99F7 /* Debug */,
-				92046B4C037C9F69AE79FF9282C5E74C /* Release */,
+				FF36B7307E6B6A0E1A4F2068F2EC661E /* Debug */,
+				FD50E292A44E00DE8F9E88A4F27D9023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE662DCA8FB02ACEA7237B044A5DCEC0 /* Build configuration list for PBXNativeTarget "QXSocket" */ = {
+		5D37A613FD0E4DF19142B222CB9B82A5 /* Build configuration list for PBXNativeTarget "Pods-QXSocket_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46D36E18884DF42DE489620EF7448D04 /* Debug */,
-				70535028C6F1AFA8AC3F0D128F0D9F49 /* Release */,
+				7F5B4480B018A7A26AD4CA1C9E7B6122 /* Debug */,
+				5152C0725A7CCCDA97C2095C9156276C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E63CB65CC2F285A5C16354F508AFD51C /* Build configuration list for PBXNativeTarget "Pods-QXSocket_Example" */ = {
+		727C6E9DF1769A609557AD1C8449D98B /* Build configuration list for PBXNativeTarget "QXSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C448C31E2FBF415F1EE046AD0CDDDF16 /* Debug */,
-				9D95F5004E1281374AA3040CF4F4DEE9 /* Release */,
+				A8D0EAC0434ED0574B895F71C83C1CD0 /* Debug */,
+				9BB047C371723B47C81FCAA7F374B5E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
