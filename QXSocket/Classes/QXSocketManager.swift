@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Socket
+import BlueSocket
 
 public class QXTCPSocketManager: NSObject {
     
@@ -44,17 +44,17 @@ public class QXTCPSocketManager: NSObject {
     public var needSSL: Bool = false
     
     
-    private let host: String!
+    fileprivate let host: String!
     
-    private let port: Int32!
+    fileprivate let port: Int32!
     
     private var retryTimes: Int32 = 0
     
-    private var socket: Socket!
+    fileprivate var socket: Socket?
     
     private var tmpData:Array<Any> = []
     
-    private var socketQueue = DispatchQueue(label: "fox.socket.com")
+    fileprivate var socketQueue = DispatchQueue(label: "fox.socket.com")
     
     private var stashedMessages:Array<Any> = []
     
@@ -87,7 +87,7 @@ extension QXTCPSocketManager {
         try? self.socket?.connect(to: self.host, port: self.port)
         self.run()
         
-        if !socket.isConnected {
+        if !(socket?.isConnected)! {
             
             fatalError("Failed to connect to the server...")
         }
@@ -234,33 +234,37 @@ extension QXTCPSocketManager {
 }
 
 
-extension QXTCPSocketManager:SSLServiceDelegate {
-    public func initialize(asServer: Bool) throws {
-        
-    }
-    
-    public func deinitialize() {
-        
-    }
-    
-    public func onAccept(socket: Socket) throws {
-        
-    }
-    
-    public func onConnect(socket: Socket) throws {
-        
-    }
-    
-    public func send(buffer: UnsafeRawPointer, bufSize: Int) throws -> Int {
-        return bufSize
-    }
-    
-    public func recv(buffer: UnsafeMutableRawPointer, bufSize: Int) throws -> Int {
-        return bufSize
-    }
-    
-    
-}
+//extension QXTCPSocketManager:SSLServiceDelegate {
+//    public func send(buffer: UnsafeRawPointer!, bufSize: Int) throws -> Int {
+//        <#code#>
+//    }
+//
+//    public func initialize(asServer: Bool) throws {
+//
+//    }
+//
+//    public func deinitialize() {
+//
+//    }
+//
+//    public func onAccept(socket: Socket) throws {
+//
+//    }
+//
+//    public func onConnect(socket: Socket) throws {
+//
+//    }
+//
+//    public func send(buffer: UnsafeRawPointer, bufSize: Int) throws -> Int {
+//        return bufSize
+//    }
+//
+//    public func recv(buffer: UnsafeMutableRawPointer, bufSize: Int) throws -> Int {
+//        return bufSize
+//    }
+//
+//
+//}
 
 //extension QXTCPSocketManager : QXSocketManagerProtocol {
 //    func qx_socketDidConnect() {
