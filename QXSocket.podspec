@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QXSocket'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of QXSocket.'
 
 # This description is used to generate tags and improve search results.
@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = "a socket client for ios written by swift"
 
-  s.homepage         = 'https://github.com/905799827@qq.com/QXSocket'
+  s.homepage         = 'https://github.com/CQXfly/QXSocket'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '905799827@qq.com' => 'qingxu.chong@yintech.cn' }
-  s.source           = { :git => 'https://github.com/905799827@qq.com/QXSocket.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/CQXfly/QXSocket', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
