@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+@objc
+public enum QXSocketStatus : Int {
+    case disconnected
+    case connected
+}
