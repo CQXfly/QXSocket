@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import BlueSocket
+import Socket
 
 public class QXTCPSocketManager: NSObject {
     
