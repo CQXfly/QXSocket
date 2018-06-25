@@ -1,12 +1,12 @@
 PODS:
-  - BlueSocket (1.0.7)
+  - BlueSocket (1.0.8)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - QXSocket (0.1.0):
-    - BlueSocket (~> 1.0)
+    - BlueSocket
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -22,9 +22,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BlueSocket: c93bef1d8a9a7e65301964605c63220c7c3871a1
+  BlueSocket: 763db95b6002c0e7dec8eb0c27bc628ca95296d1
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  QXSocket: 2f53963bed4ff2da0bdc3915b10621aad573dfa2
+  QXSocket: c0170ac86c07c46816e21616a443ca0483a00c8d
 
 PODFILE CHECKSUM: 2207c143e492818159eee3f4c0664bf7447e7995
 

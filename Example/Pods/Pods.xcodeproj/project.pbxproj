@@ -96,7 +96,7 @@
 		18C2232BB79E40A5227B442E9B9A7E73 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		1952008561841082256974CF6A2177C9 /* QXSocketManagerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QXSocketManagerProtocol.swift; path = QXSocket/Classes/QXSocketManagerProtocol.swift; sourceTree = "<group>"; };
 		2033139D113238CC12E7F2797CC12E22 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		2037725B2A94A6F82CF1BF94D7E80211 /* Pods_QXSocket_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXSocket_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2037725B2A94A6F82CF1BF94D7E80211 /* Pods_QXSocket_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QXSocket_Example.framework; path = "Pods-QXSocket_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		222EC2B72798AA95A34BE0776F1AC515 /* Pods-QXSocket_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXSocket_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2297554A74DB615ECEEBB5DA1106203C /* Pods-QXSocket_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXSocket_Example-resources.sh"; sourceTree = "<group>"; };
 		23633D753CD492013F41D20B188430AC /* BlueSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlueSocket-dummy.m"; sourceTree = "<group>"; };
@@ -106,18 +106,18 @@
 		373FF833DE73BE3CBD6372DAFE5825DF /* BlueSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueSocket-umbrella.h"; sourceTree = "<group>"; };
 		3E8A051678A2E02272E7D12D4266AFEA /* QXSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QXSocket-dummy.m"; sourceTree = "<group>"; };
 		432E76842FBBE5656E91C82D6DB7C1AF /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		48DF62E5E5101B70A2A91899B246AFAB /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DF62E5E5101B70A2A91899B246AFAB /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4960DFEDC145797589DD8C9FC8A25BF6 /* Pods-QXSocket_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QXSocket_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4B5F7296FE2E13D6EC32F29C5B09F255 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		4B88CFAB8C1E996282708B0AB821C141 /* BlueSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueSocket-prefix.pch"; sourceTree = "<group>"; };
 		4BA1D639F1FF82B1B16AA9EBDC1D7634 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		4EE2F619A0927E3A95E73D35D6A06652 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4EE2F619A0927E3A95E73D35D6A06652 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		54D2B00B6AC3902256C11726979B3EB6 /* QXSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXSocket-umbrella.h"; sourceTree = "<group>"; };
 		55FA3A9102318F6F68DBBA0C9B6B6265 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		564B05BAE30649D6B7E1A7F46034F8A6 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		56EA5B12154F1C12D7AD539B7B97903F /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket/Socket.swift; sourceTree = "<group>"; };
 		657C5EB2C67B1EACFABE96045F57145C /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		680EA5CAB9B0F5CA50B55577160ABF75 /* QXSocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = QXSocket.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		680EA5CAB9B0F5CA50B55577160ABF75 /* QXSocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QXSocket.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		68D626557CAB7C9ED165414ED3F6E86B /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		6A6037259DD3330FEE3661C433B89A7C /* Pods-QXSocket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXSocket_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6DFCEBF6F5B5B742814CE89079C2AB66 /* Pods-QXSocket_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QXSocket_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -127,10 +127,10 @@
 		7373475E084A6B38AD5827CAFD656111 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		76D4228E2A0091857831FF98069DBA21 /* Pods-QXSocket_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXSocket_Tests-resources.sh"; sourceTree = "<group>"; };
 		771191246F63CF4D5586A447566E126F /* Pods-QXSocket_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXSocket_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7BD5112EF1B8C52014C99187456466BB /* QXSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QXSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD5112EF1B8C52014C99187456466BB /* QXSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QXSocket.framework; path = QXSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8ACCFC594FB9559C9257FDF1699881 /* SocketUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketUtils.swift; path = Sources/Socket/SocketUtils.swift; sourceTree = "<group>"; };
 		8B021377EC93198870A594AB1C2ABA7F /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9592F687589BF07384ED662629FE04D8 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		97C7E5C978B337304949FD788CEAD76A /* SocketProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketProtocols.swift; path = Sources/Socket/SocketProtocols.swift; sourceTree = "<group>"; };
 		9B2797C926CE938926C1763BC8EF9446 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
@@ -145,16 +145,16 @@
 		C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C4AEFF3717E886A58903A8A71960C84D /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		C9A069EECF14CB318EAB5DFB8C68CAE4 /* Pods-QXSocket_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QXSocket_Tests-dummy.m"; sourceTree = "<group>"; };
-		CA1E17685ECAA76FC8406B61A7527B06 /* Pods_QXSocket_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXSocket_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1E17685ECAA76FC8406B61A7527B06 /* Pods_QXSocket_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QXSocket_Tests.framework; path = "Pods-QXSocket_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3B84778F229D12CC34DFD989959F5D /* Pods-QXSocket_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXSocket_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D8B9F86214E6CEC20CDE1F16A75D4AB9 /* BlueSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlueSocket.xcconfig; sourceTree = "<group>"; };
 		DC626254955FD72535CD9783943A78C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE0981B0747FEA9C004E30C7D7179D08 /* Pods-QXSocket_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QXSocket_Example.modulemap"; sourceTree = "<group>"; };
 		E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EDA6E694D9F2E48B7CEDAB16B241B08D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EDA6E694D9F2E48B7CEDAB16B241B08D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EF9F2FC7E87C70E5C877E408E8B323C3 /* Pods-QXSocket_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QXSocket_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F117EFF62BE03AF940249C40F0D40BFD /* Socket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Socket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F117EFF62BE03AF940249C40F0D40BFD /* Socket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Socket.framework; path = BlueSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F264954A4FE3B08C550D64A125FBBBDC /* BlueSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlueSocket.modulemap; sourceTree = "<group>"; };
 		FC4438483381E62F9030B946DF6FE2DE /* QXSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QXSocket.xcconfig; sourceTree = "<group>"; };
 		FFCE3EB21BBF38FCF60E2E7557B9DB21 /* Pods-QXSocket_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QXSocket_Tests.modulemap"; sourceTree = "<group>"; };
@@ -273,6 +273,7 @@
 				9E56291B34408D6AA14D918C716E2439 /* Support Files */,
 				EE5EAE3F1212807373CAECA8636BD894 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -385,6 +386,7 @@
 				7E8ACCFC594FB9559C9257FDF1699881 /* SocketUtils.swift */,
 				D3F283570F7965B0C28A6C6178882C90 /* Support Files */,
 			);
+			name = BlueSocket;
 			path = BlueSocket;
 			sourceTree = "<group>";
 		};
@@ -690,6 +692,39 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		13AD136018DE42D59E53875D2BB59BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4438483381E62F9030B946DF6FE2DE /* QXSocket.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QXSocket/QXSocket-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/QXSocket/QXSocket.modulemap";
+				PRODUCT_MODULE_NAME = QXSocket;
+				PRODUCT_NAME = QXSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		246CED37F175AF5E851C3839F63F9521 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4AEFF3717E886A58903A8A71960C84D /* FBSnapshotTestCase.xcconfig */;
@@ -949,10 +984,11 @@
 			};
 			name = Debug;
 		};
-		9BB047C371723B47C81FCAA7F374B5E2 /* Release */ = {
+		B595989C16D9BA6E91D7C502703DD758 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC4438483381E62F9030B946DF6FE2DE /* QXSocket.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -981,38 +1017,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		A8D0EAC0434ED0574B895F71C83C1CD0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC4438483381E62F9030B946DF6FE2DE /* QXSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QXSocket/QXSocket-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/QXSocket/QXSocket.modulemap";
-				PRODUCT_MODULE_NAME = QXSocket;
-				PRODUCT_NAME = QXSocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		C98F9B6C09A98E1E9343B762420213E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1194,8 +1198,8 @@
 		727C6E9DF1769A609557AD1C8449D98B /* Build configuration list for PBXNativeTarget "QXSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8D0EAC0434ED0574B895F71C83C1CD0 /* Debug */,
-				9BB047C371723B47C81FCAA7F374B5E2 /* Release */,
+				13AD136018DE42D59E53875D2BB59BFD /* Debug */,
+				B595989C16D9BA6E91D7C502703DD758 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
