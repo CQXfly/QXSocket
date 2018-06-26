@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.m = QXTCPSocketManager.manager(host: "127.0.0.1", on: 6000)
+        self.m = QXTCPSocketManager.manager(host: "192.168.76.51", on: 6000)
         
         m?.connect()
         
