@@ -157,39 +157,37 @@ extension QXTCPSocketManager {
             var readData = Data(capacity:QXTCPSocketManager.bufferSize)
             
             do {
-                // Write the welcome string...
-                try socket?.write(from: "Hello, type 'QUIT' to end session\nor 'SHUTDOWN' to stop server.\n")
-                
+                // 循环去取是否有消息
                 repeat {
                     let bytesRead = try socket?.read(into: &readData)
                     
                     if bytesRead! > 0 {
+                        //要对粘包做处理
+                        
                         guard let response = String(data: readData, encoding: .utf8) else {
-                            
+                            // 不支持字符解码
                             print("Error decoding response...")
                             readData.count = 0
                             break
                         }
                         if response.hasPrefix(QXTCPSocketManager.shutdownCommand) {
                             
-                            print("Shutdown requested by connection at \(socket?.remoteHostname):\(socket?.remotePort)")
+                            print("Shutdown requested by connection at \(String(describing: socket?.remoteHostname)):\(String(describing: socket?.remotePort))")
                             
                             // Shut things down...
 //                            self.shutdownServer()
                             
                             return
                         }
-                        print("Server received from connection at \(socket?.remoteHostname):\(socket?.remotePort): \(response) ")
-                        let reply = "Server response: \n\(response)\n"
+                        print("Server received from connection at \(String(describing: socket?.remoteHostname)):\(String(describing: socket?.remotePort)): \(response) ")
                         
                         self.delegate?.qx_socketDidReceiveData(readData)
-                        
-//                        try socket?.write(from: reply)
+
                         
                         if (response.uppercased().hasPrefix(QXTCPSocketManager.quitCommand) || response.uppercased().hasPrefix(QXTCPSocketManager.shutdownCommand)) &&
                             (!response.hasPrefix(QXTCPSocketManager.quitCommand) && !response.hasPrefix(QXTCPSocketManager.shutdownCommand)) {
                             
-//                            try socket?.write(from: "If you want to QUIT or SHUTDOWN, please type the name in all caps. 😃\n")
+
                         }
                         
                         if response.hasPrefix(QXTCPSocketManager.quitCommand) || response.hasSuffix(QXTCPSocketManager.quitCommand) {
@@ -208,18 +206,18 @@ extension QXTCPSocketManager {
                     
                 } while shouldKeepRunning
                 
-                print("Socket: \(socket?.remoteHostname):\(socket?.remotePort) closed...")
+                print("Socket: \(String(describing: socket?.remoteHostname)):\(String(describing: socket?.remotePort)) closed...")
                 socket?.close()
               
                 
             }
             catch let error {
                 guard let socketError = error as? Socket.Error else {
-                    print("Unexpected error by connection at \(socket?.remoteHostname):\(socket?.remotePort)...")
+                    print("Unexpected error by connection at \(String(describing: socket?.remoteHostname)):\(String(describing: socket?.remotePort))...")
                     return
                 }
                 if self.continueRunning {
-                    print("Error reported by connection at \(socket?.remoteHostname):\(socket?.remotePort):\n \(socketError.description)")
+                    print("Error reported by connection at \(String(describing: socket?.remoteHostname)):\(String(describing: socket?.remotePort)):\n \(socketError.description)")
                 }
             }
         }
